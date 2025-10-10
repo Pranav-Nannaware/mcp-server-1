@@ -1,9 +1,3 @@
-Great — I proceeded with the sensible defaults you approved and generated the full MCP server package. Below are the **two required sections**.
-
-> NOTE: I implemented all tools as MCP tools that call the Docker Engine (via the official `docker` Python SDK). Each tool returns a **string**, uses only simple parameter types with empty-string defaults, single-line docstrings, logs to `stderr`, and handles errors gracefully. The server is configured to use the Docker socket by default (`/var/run/docker.sock`). The Dockerfile runs the MCP server as a non-root user.
-
----
-
 # SECTION 1: FILES TO CREATE
 
 Create exactly these 5 files with the exact content below.
